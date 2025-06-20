@@ -4,7 +4,7 @@ const { generateAttendancePDF } = require('../utils/pdfGenerator');
 const path = require('path');
 const fs = require('fs');
 
-const ACADEMIC_API = 'http://192.168.42.142:3001';
+const ACADEMIC_API = 'https://adriacademic.onrender.com';
 const AUTH_API = 'https://adriauth.onrender.com/auth/users';
 
 // 🔄 Validar si el estudiante está asignado al curso
